@@ -1,0 +1,46 @@
+body {
+	background-color: lightgrey;
+	font-size: 20px;
+	color: purple;
+	font-weight: bold;
+}
+
+button, input[type="submit"] {
+	border: 2px groove purple;
+	margin: 10px;
+	background-color: green;
+	border-radius: 10px;
+	padding: 5px;
+	font-style: ;
+	color: yellow;
+	font-size: 18px;
+}
+
+button:hover ,input[type="submit"]:hover {
+	cursor: pointer;
+	transform: translate(1px, 1px);
+}
+
+#searches {
+	width: 70%;
+}
+
+.search-item {
+	float: left;
+	padding: 10px; 
+}
+
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1.5px groove purple;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+form {
+	float: right;
+	width: 30%;
+}
+
